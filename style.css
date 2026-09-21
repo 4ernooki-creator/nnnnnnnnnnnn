@@ -20,9 +20,15 @@ body {
 }
 
 /* === Ярусы ёлки с разной высотой === */
-.layer1 { border-bottom: 140px solid green; } 
-.layer2 { border-bottom: 160px solid green; } 
-.layer3 { border-bottom: 180px solid green; } 
+.layer1 { border-bottom: 140px solid green; 
+margin: 0 auto;
+} 
+.layer2 { border-bottom: 160px solid green; 
+margin: 0 auto;     
+} 
+.layer3 { border-bottom: 180px solid green; 
+margin: 0 auto;
+} 
 
 /* === Ствол ёлки === */
 .trunk {
