@@ -79,13 +79,6 @@ button:hover {
   transform: scale(1.1); 
   background: rgb(0, 155, 26); 
 }
-body {
-  background-image:url('');
-  color: white;              
-  text-align: center;       
-  font-family: Arial, sans-serif; 
-}
-
 
 .tree {
   margin-top: 50px;   
