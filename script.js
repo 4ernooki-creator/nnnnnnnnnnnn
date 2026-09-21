@@ -47,6 +47,8 @@ console.log(typeof name , typeof age ,typeof school ,typeof pr);
 // }
 let teer= prompt('пропустить калькулятор? да нет')
 if(teer='нет'){
+
+} else{
     let first = prompt('Введите первое число a...b=...')
     let second = prompt('Введите второе число' + first +'...b=...')
     let chose = prompt('a+ b* c/ d- e степень f корень первого числа g/ с ост' + first +'...'+ second +'=...')
