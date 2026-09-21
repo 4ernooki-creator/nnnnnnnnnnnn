@@ -1,0 +1,162 @@
+body {
+  background-image:url('im.jpg');
+  color: white;              
+  text-align: center;       
+  font-family: Arial, sans-serif; 
+}
+
+
+.tree {
+  margin-top: 50px;   
+  position: relative; 
+}
+
+.triangle {
+  width: 0;  
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;ыы
+  margin: -30px auto; 
+  position: relative;
+}
+
+/* === Ярусы ёлки с разной высотой === */
+.layer1 { border-bottom: 140px solid green; } 
+.layer2 { border-bottom: 160px solid green; } 
+.layer3 { border-bottom: 180px solid green; } 
+
+/* === Ствол ёлки === */
+.trunk {
+  width: 50px;             
+  height: 70px;             
+  background-color: saddlebrown; 
+  margin: 0 auto;          
+}
+
+@keyframes blink {
+  0%   { opacity: 0.3; }
+  50%  { opacity: 1; }   
+  100% { opacity: 0.3; }
+}
+
+.triangle::before {
+  content: "✨✨✨✨✨✨✨✨✨"; 
+  position: absolute;
+  font-size: 18px;          
+  width: 100%;              
+  text-align: center;       
+  animation: blink 2s infinite; 
+}
+
+.layer1::before {
+  top: 40px;
+  left: -90px;
+}
+
+.layer2::before {
+  top: 70px;
+  left: -100px;
+}
+
+.layer3::before {
+  top: 100px;
+  left: -110px;
+}
+
+button {
+  margin-top: 20px;         
+  padding: 10px 20px;      
+  font-size: 16px;           
+  cursor: pointer;         
+  background: rgb(0, 255, 34);      
+  color: white;             
+  border: none;              
+  border-radius: 8px;        
+  box-shadow: 0 0 10px gold; 
+  transition: transform 0.3s, background 0.3s; 
+}
+
+button:hover {
+  transform: scale(1.1); 
+  background: rgb(0, 155, 26); 
+}
+body {
+  background-image:url('');
+  color: white;              
+  text-align: center;       
+  font-family: Arial, sans-serif; 
+}
+
+
+.tree {
+  margin-top: 50px;   
+  position: relative; 
+}
+
+.triangle {
+  width: 0;  
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;ыы
+  margin: -30px auto; 
+  position: relative;
+}
+
+/* === Ярусы ёлки с разной высотой === */
+.layer1 { border-bottom: 140px solid green; } 
+.layer2 { border-bottom: 160px solid green; } 
+.layer3 { border-bottom: 180px solid green; } 
+
+/* === Ствол ёлки === */
+.trunk {
+  width: 50px;             
+  height: 70px;             
+  background-color: saddlebrown; 
+  margin: 0 auto;          
+}
+
+@keyframes blink {
+  0%   { opacity: 0.3; }
+  50%  { opacity: 1; }   
+  100% { opacity: 0.3; }
+}
+
+.triangle::before {
+  content: "✨✨✨✨✨✨✨✨✨"; 
+  position: absolute;
+  font-size: 18px;          
+  width: 100%;              
+  text-align: center;       
+  animation: blink 2s infinite; 
+}
+
+.layer1::before {
+  top: 40px;
+  left: -90px;
+}
+
+.layer2::before {
+  top: 70px;
+  left: -100px;
+}
+
+.layer3::before {
+  top: 100px;
+  left: -110px;
+}
+
+button {
+  margin-top: 20px;         
+  padding: 10px 20px;      
+  font-size: 16px;           
+  cursor: pointer;         
+  background: rgb(0, 255, 34);      
+  color: white;             
+  border: none;              
+  border-radius: 8px;        
+  box-shadow: 0 0 10px gold; 
+  transition: transform 0.3s, background 0.3s; 
+}
+
+button:hover {
+  transform: scale(1.1); 
+  background: rgb(0, 155, 26); 
+}
