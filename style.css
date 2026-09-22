@@ -22,7 +22,7 @@ body {
 /* === Ярусы ёлки с разной высотой === */
 .layer1 { border-bottom: 120px solid green; 
 margin: 0 auto;
-margin-bottom:-120px;
+margin-bottom:-90px;
 } 
 .layer2 { border-bottom: 130px solid green; 
 margin: 0 auto;
