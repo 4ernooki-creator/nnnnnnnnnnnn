@@ -39,10 +39,10 @@ margin-bottom:0px;
 /* === Ствол ёлки === */
 .trunk {
   width: 50px;             
-  height: 120px;             
+  height: 70px;             
   background-color: #1a0d00; 
   margin: 0 auto;  
-  margin-bottom:-30px;
+  margin-bottom:-80px;
 }
 
 @keyframes blink {
