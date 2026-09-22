@@ -13,36 +13,31 @@ body {
 
 .triangle {
   width: 0;  
-  border-left: 120px  #002200;
-  border-right: 120px #052c15;
+  border-left: 120px  darkgreen;
+  border-right: 120px darkgreen;
   margin: -30px auto; 
   position: relative;
 }
 
 /* === Ярусы ёлки с разной высотой === */
-.layer1 { border-bottom: 120px #002200; 
+.layer1 { border-bottom: 120px darkgreen;
 margin: 0 auto;
-margin-bottom:-90px;
 } 
-.layer2 { border-bottom: 130px  #002200 ; 
+.layer2 { border-bottom: 130px  darkgreen;
 margin: 0 auto;
-margin-bottom:-60px;
 } 
-.layer3 { border-bottom: 140px  #002200; 
+.layer3 { border-bottom: 140px  darkgreen; 
 margin: 0 auto;
-margin-bottom:-30px;
 } 
-.layer4 { border-bottom: 150px  #002200; 
+.layer4 { border-bottom: 150px  darkgreen; 
 margin: 0 auto;
-margin-bottom:0px;
-} 
+}
 /* === Ствол ёлки === */
 .trunk {
   width: 50px;             
   height: 70px;             
   background-color: #1a0d00; 
   margin: 0 auto;  
-  margin-bottom:-80px;
 }
 
 @keyframes blink {
