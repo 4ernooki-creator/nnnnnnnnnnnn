@@ -46,36 +46,36 @@ console.log(typeof name , typeof age ,typeof school ,typeof pr);
 //     alert('нет малой')
 // }
 let teer= prompt('пропустить калькулятор? да нет')
-if(teer='нет'){
 
-} else{
-    let first = prompt('Введите первое число a...b=...')
-    let second = prompt('Введите второе число' + first +'...b=...')
-    let chose = prompt('a+ b* c/ d- e степень f корень первого числа g/ с ост' + first +'...'+ second +'=...')
-    let u = Number(first)
-    let p = Number(second)
-    let res = u + p
-    let res1 = u * p
-    let res2 = u / p
-    let res3 = u - p
-    let res4 = Math.pow(u, p)
-    let res5 = Math.sqrt(u)
-    let res6 = u % p
-    let res7 = u - res6
-    let res8 = res7 / p
-    if(chose === 'a'){
-        alert('сложение '+ first + '+' + second + '=' + res)
-    } else if(chose === 'b'){
-        alert('умножение '+ first + '*' + second + '=' + res1)
-    } else if(chose ==='c'){
-        alert('деление '+ first + '/' + second + '=' + res2)
-    } else if(chose === 'd'){
-        alert('вычитание '+ first + '-' + second + '=' + res3)
-    }   else if(chose === 'e'){
-        alert('степень '+ first + 'в степени' + second + '=' + res4)
-    } else if(chose === 'f'){
-        alert('корень '+ 'корень' + first  + '=' + res5)
-    } else if(chose === 'g'){
-        alert('дел с ост '+ first + '/' + second + '=' + res8+ ' (' + res6 + ')')
+
+
+let first = prompt('Введите первое число a...b=...')
+let second = prompt('Введите второе число' + first +'...b=...')
+let chose = prompt('a+ b* c/ d- e степень f корень первого числа g/ с ост' + first +'...'+ second +'=...')
+let u = Number(first)
+let p = Number(second)
+let res = u + p
+let res1 = u * p
+let res2 = u / p
+let res3 = u - p
+let res4 = Math.pow(u, p)
+let res5 = Math.sqrt(u)
+let res6 = u % p
+let res7 = u - res6
+let res8 = res7 / p
+if(chose === 'a'){
+    alert('сложение '+ first + '+' + second + '=' + res)
+} else if(chose === 'b'){
+    alert('умножение '+ first + '*' + second + '=' + res1)
+} else if(chose ==='c'){
+    alert('деление '+ first + '/' + second + '=' + res2)
+} else if(chose === 'd'){
+    alert('вычитание '+ first + '-' + second + '=' + res3)
+}   else if(chose === 'e'){
+    alert('степень '+ first + 'в степени' + second + '=' + res4)
+} else if(chose === 'f'){
+    alert('корень '+ 'корень' + first  + '=' + res5)
+} else if(chose === 'g'){
+    alert('дел с ост '+ first + '/' + second + '=' + res8+ ' (' + res6 + ')')
     }
-}
+
