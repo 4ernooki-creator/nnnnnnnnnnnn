@@ -50,8 +50,8 @@ console.log(typeof name , typeof age ,typeof school ,typeof pr);
 
 
 let first = prompt('Введите первое число')
-let second = prompt('Введите второе число' + 'Первое' + first)
-let chose = prompt('a+ b* c/ d- e степень f корень первого числа g/ с ост' + ' первое ' + first + ' второе ' + second )
+let second = prompt('Введите второе число ' + ' Первое: ' + first)
+let chose = prompt('a+ b* c/ d- e степень f корень первого числа g/ с ост' + ' Первое: ' + first + ' Второе: ' + second )
 let u = Number(first)
 let p = Number(second)
 let res = u + p
