@@ -45,7 +45,7 @@ console.log(typeof name , typeof age ,typeof school ,typeof pr);
 // } else {
 //     alert('нет малой')
 // }
-let teer= prompt('пропустить калькулятор? да нет')
+
 
 
 
