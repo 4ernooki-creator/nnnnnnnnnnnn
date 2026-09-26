@@ -2,7 +2,7 @@ let dog = 'меняется';
 const myNAme = 'не меняется';
 var my_name = 'о нет нинида';
 
-dog = 'klklkklllklkljkjikjijhoihjkhkhjhjkhuihjkkhjkgjhfgyjgjhgjfgjhfgjjhui';
+dog = 'klklkklllklkljkjikjijhoihjkhkhjhjkhuihjkkhjkgjhfgyjgjhgjfgjhfgjjhi';
 
 console.log(dog , myNAme , my_name);
 
