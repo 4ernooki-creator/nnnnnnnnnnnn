@@ -13,20 +13,20 @@ body {
 
 .triangle {
   width: 0;  
-  border-left: 120px  darkgreen;
-  border-right: 120px darkgreen;
+  border-left: 150px  darkgreen;
+  border-right: 150px darkgreen;
   margin: -30px auto; 
   position: relative;
 }
 
 /* === Ярусы ёлки с разной высотой === */
-.layer1 { border-bottom: 120px darkgreen;
+.layer1 { border-bottom: 150px darkgreen;
 margin: 0 auto;
 } 
-.layer2 { border-bottom: 130px  darkgreen;
+.layer2 { border-bottom: 170px  darkgreen;
 margin: 0 auto;
 } 
-.layer3 { border-bottom: 140px  darkgreen; 
+.layer3 { border-bottom: 190px  darkgreen; 
 margin: 0 auto;
 } 
 .layer4 { border-bottom: 150px  darkgreen; 
