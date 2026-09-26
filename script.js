@@ -50,8 +50,11 @@ console.log(typeof name , typeof age ,typeof school ,typeof pr);
 
 
 let first = prompt('Введите первое число')
-let second = prompt('Введите второе число ' + ' Первое: ' + first)
-let chose = prompt('a+ b* c/ d- e степень f корень первого числа g/ с ост' + ' Первое: ' + first + ' Второе: ' + second )
+let second = prompt('Первое введёное число: ' + first + 
+'Введите второе число ')
+let chose = prompt( + ' Первое: ' + first + 
+' Второе: ' + second 
+'1+ ,2* ,3/ ,4- ,5 степень ,6 корень первого числа ,7/ с ост')
 let u = Number(first)
 let p = Number(second)
 let res = u + p
@@ -63,19 +66,19 @@ let res5 = Math.sqrt(u)
 let res6 = u % p
 let res7 = u - res6
 let res8 = res7 / p
-if(chose === 'a'){
+if(chose === 1){
     alert('сложение '+ first + '+' + second + '=' + res)
-} else if(chose === 'b'){
+} else if(chose === 2){
     alert('умножение '+ first + '*' + second + '=' + res1)
-} else if(chose ==='c'){
+} else if(chose ===3){
     alert('деление '+ first + '/' + second + '=' + res2)
-} else if(chose === 'd'){
+} else if(chose === 4){
     alert('вычитание '+ first + '-' + second + '=' + res3)
-}   else if(chose === 'e'){
+}   else if(chose === 5){
     alert('степень '+ first + 'в степени' + second + '=' + res4)
-} else if(chose === 'f'){
+} else if(chose === 6){
     alert('корень '+ 'корень' + first  + '=' + res5)
-} else if(chose === 'g'){
+} else if(chose === 7){
     alert('дел с ост '+ first + '/' + second + '=' + res8+ ' (' + res6 + ')')
 }
 
