@@ -1,4 +1,9 @@
 body {
+  background-image: url('stars.jpg'); 
+  background-repeat: repeat; 
+}
+
+body {
   color:white;
   background-color:navy;             
   text-align: center;       
